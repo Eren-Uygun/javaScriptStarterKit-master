@@ -78,6 +78,16 @@ save(100,product);
 
 
 
+//Fonksiyonlar => 
+//Fonksiyonlar bir kere yazılıp birden fazla kere farklı yerlerden kullanılabilir.
+
+
+
+
+
+
+
+
 
 
 
