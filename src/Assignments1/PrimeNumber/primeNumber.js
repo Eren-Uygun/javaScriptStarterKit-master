@@ -1,5 +1,7 @@
 function isPrime(...params) {
 
+  //Asal Sayılar sadece 1'e ve kendisine bölünebilen sayılardır.
+
   let count; //Bölen sayısı için
 
   //Gönderilen elemanları gezecek döngü

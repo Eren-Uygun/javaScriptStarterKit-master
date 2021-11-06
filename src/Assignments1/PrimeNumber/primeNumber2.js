@@ -1,4 +1,5 @@
 function isPrimeNumber() {
+    //Asal Sayılar sadece 1'e ve kendisine bölünebilen sayılardır.
 
     // ilk döngümüz 1000'e kadar gidecek elemanlarımız için oluşuturulan döngü
     for(let i = 2;i<=1000;i++){
