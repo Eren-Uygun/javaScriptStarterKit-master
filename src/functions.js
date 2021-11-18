@@ -273,6 +273,8 @@ let productName,unitPrice,quantity = ({
 }  = {productName:"Elma",unitPrice:10,quantity:5})
 
 console.log(productName)
+console.log(unitPrice)
+console.log(quantity)
     
 
 
