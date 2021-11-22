@@ -10,22 +10,30 @@ let logger1 = new MongoLogger();
 
 let userService = new UserService(logger1);
 
+
 let user = new User(1,"Eren","Uygun","İstanbul");
 let user1 = new User(2,"Enes","Arıcıoğlu","Konya");
 
+/*
 userService.add(user);
 userService.add(user1);
 userService.getById(1);
 userService.list();
+*/
 
-let customer = {id:1,firstName:"Eren"};
-customer.lastName = "Uygun";
+//let customer = {id:1,firstName:"Eren"};
+//customer.lastName = "Uygun";
 
 //Bu olaya prototyping diyoruz.
 //Nesneye sonradan özellik eklemiş oluyoruz.
 //console.log(customer.lastName);
-console.log(userService.list())
-console.log(userService.getById(1))
+//console.log(userService.list())
+//console.log(userService.getById(1))
+
+console.log("--------------------------")
+userService.load()
+console.log(userService.customers)
+console.log(userService.employees)
 
 
 
